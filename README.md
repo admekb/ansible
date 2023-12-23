@@ -1,4 +1,4 @@
-
+```yaml
 ---
 - hosts: web
   tasks:
@@ -6,3 +6,4 @@
       copy:
         src: test.txt
         dest: /tmp/test.txt
+```
